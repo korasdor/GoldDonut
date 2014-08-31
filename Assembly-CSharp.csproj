@@ -58,7 +58,7 @@
      <Compile Include="Assets\Scripts\services\StartupService.cs" />
      <None Include="Assets\Libs\HOTween_License.txt" />
  <Reference Include="HOTween">
- <HintPath>D:/koras_dor/new/programming/C#/Projects/unity/GoldDonut/Assets/Libs/HOTween.dll</HintPath>
+ <HintPath>D:/koras_dor/GitHub/GoldDonut/Assets/Libs/HOTween.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
