@@ -47,11 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\MainBehav.cs" />
+     <Compile Include="Assets\Scripts\behavs\ButtonBehav.cs" />
      <Compile Include="Assets\Scripts\behavs\GameBehav.cs" />
      <Compile Include="Assets\Scripts\controllers\GameController.cs" />
      <Compile Include="Assets\Scripts\controllers\IntroController.cs" />
      <Compile Include="Assets\Scripts\controllers\ResultController.cs" />
      <Compile Include="Assets\Scripts\controllers\impl\IController.cs" />
+     <Compile Include="Assets\Scripts\events\args\ButtonEventArgs.cs" />
+     <Compile Include="Assets\Scripts\events\args\RemoteEventArgs.cs" />
      <Compile Include="Assets\Scripts\models\GameModel.cs" />
      <Compile Include="Assets\Scripts\models\data\ApplicationData.cs" />
      <Compile Include="Assets\Scripts\services\RemoteService.cs" />
