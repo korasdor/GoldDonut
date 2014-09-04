@@ -36,7 +36,19 @@ namespace AssemblyCSharp
 		public void Init(Action<string> callback) {
 			this.callback = callback;
 
-			Debug.Log("yes");
+			gameBehav.PushButtonDown += OnPushButtonDown;
+			gameBehav.SpinButtonDown += OnSpinButtonDown;
+			gameBehav.Init ();
+		}
+
+		void OnPushButtonDown (object sender, EventArgs e)
+		{
+
+		}
+
+		void OnSpinButtonDown (object sender, EventArgs e)
+		{
+			gameBehav.SpinWheel();
 		}
 
 		public void Update() {
